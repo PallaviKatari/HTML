@@ -1,0 +1,81 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <title>Welcome to CG VAK</title>  
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <style>  
+
+    .carousel-inner > .item > img 
+     
+     {  
+        width: 100%;  
+        height:300px;
+        margin: auto;  
+    }  
+    .navbar .navbar-brand {
+    color: #94128A;
+    font-size: 24px;
+}
+  </style>  
+  
+</head>  
+<body>
+
+
+<nav class="navbar navbar-inverse navbar-fixed-top" >  
+    <div class="container-fluid">  
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+        <a class="navbar-brand" href="#">ABC</a>  
+      </div>
+       
+        <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">  
+        <li class="active"><a href="#">Home</a></li>  
+ 
+    </div> 
+ 
+  </nav>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div class="container-fluid">  
+      
+    <!--data-ride="carousel"-a slideshow for cycling through a series of content-->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">  
+      <!-- Indicators -->  
+      <ol class="carousel-indicators">  
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>  
+        <li data-target="#myCarousel" data-slide-to="1"></li>  
+        <li data-target="#myCarousel" data-slide-to="2"></li>  
+      </ol>  
+    
+      <!-- Wrapper for slides 
+      
+role="listbox" is used for accessibility purposes. 
+It identifies to a screen-reader or other assistive technology device that this is an element that allows a user to choose one or more options, such as images in a carousel. 
+You should also add role="option" to each slide.-->  
+      <div class="carousel-inner" role="listbox">  
+        <div class="item active" style="background-color: aliceblue;">  
+          <img src="donate.jpg" alt="HTML" >
+          <h1 style="text-align: center;"> " Think of giving not as a duty but as a privilege."</h1>
+          <form style="text-align: center;"><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_IsJaklV1hOhrM4" async> </script> </form>
+        </div>  
+  </div> 
+  </div><!-- corousel end --> 
+ 
+		
+
+</body>
+
+</html>
